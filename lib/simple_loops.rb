@@ -21,6 +21,6 @@ output_array(['orange', 'red', 'yellow'])
 def return_string_array(array)
   count = 0
   while count < array.length do
-    array
+    array[count] = array[count].to_s
 end
 return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
