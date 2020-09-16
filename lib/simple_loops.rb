@@ -31,4 +31,4 @@ def return_string_array(array)
   end
   array
 end
-# return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
+return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
