@@ -19,6 +19,6 @@ end
 output_array(['orange', 'red', 'yellow'])
 
 def return_string_array(array)
-  array
+  print array
 end
 return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
