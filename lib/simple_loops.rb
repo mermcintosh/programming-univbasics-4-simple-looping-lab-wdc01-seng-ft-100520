@@ -3,9 +3,12 @@ def loop_message_five_times(a_message_string)
 end
 loop_message_five_times("Hi everyone!")
 
-def loop_message_n_times(a_message_string,integar)
-  n.times{print a_message_string}
-  n = integar
+def loop_message_n_times(message, limit)
+  count = 0
+  while count < limit do
+    puts message
+    count += 1
+  end
 end
 loop_messsage_n_times{"Hello kiddos",4}
 
