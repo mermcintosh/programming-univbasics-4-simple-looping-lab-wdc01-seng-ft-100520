@@ -7,5 +7,5 @@ def loop_message_n_times(a_message_string,integar)
   n.times{puts a_message_string}
   n = integar
 end
-loop_messsage_n_times{"Hello kiddos",4}
 binding.pry
+loop_messsage_n_times{"Hello kiddos",4}
