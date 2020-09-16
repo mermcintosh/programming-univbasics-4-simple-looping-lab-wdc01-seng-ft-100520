@@ -10,7 +10,7 @@ def loop_message_n_times(message, limit)
     count += 1
   end
 end
-loop_messsage_n_times{"Hello kiddos",4}
+loop_messsage_n_times("Hello kiddos",4)
 
 def output_array(array)
   counter = 0
