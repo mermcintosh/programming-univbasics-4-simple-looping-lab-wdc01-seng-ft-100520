@@ -21,12 +21,12 @@ def output_array(array)
 end
 output_array(['orange', 'red', 'yellow'])
 
-# def return_string_array(array)
-#   count = 0
-#   while count < array.length do
-#     array[count] = array[count].to_s
-#     count += 1
-#   end
-#   array
-# end
-# return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
+def return_string_array(array)
+  count = 0
+  while count < array.length do
+    array[count] = array[count].to_s
+    count += 1
+  end
+  array
+end
+return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
