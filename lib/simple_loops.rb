@@ -9,6 +9,7 @@ def loop_message_n_times(message, limit)
     puts message
     count += 1
   end
+  message
 end
 loop_messsage_n_times("Hello kiddos",4)
 
