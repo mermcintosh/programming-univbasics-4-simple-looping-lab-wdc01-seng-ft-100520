@@ -4,7 +4,7 @@ end
 loop_message_five_times("Hi everyone!")
 
 def loop_message_n_times(a_message_string,integar)
-  n.times{puts a_message_string}
+  n.times{print a_message_string}
   n = integar
 end
 loop_messsage_n_times{"Hello kiddos",4}
