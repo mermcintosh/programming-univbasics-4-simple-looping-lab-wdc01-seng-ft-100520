@@ -1,7 +1,7 @@
 def loop_message_five_times(a_message_string)
   5.times{puts a_message_string}
 end
-loop_message_five_times("Hi everyone!")
+# loop_message_five_times("Hi everyone!")
 
 def loop_message_n_times(a_message_string, integar)
   count = 0
@@ -19,7 +19,7 @@ def output_array(array)
   counter += 1
   end
 end
-output_array(['orange', 'red', 'yellow'])
+# output_array(['orange', 'red', 'yellow'])
 
 def return_string_array(array)
   count = 0
@@ -29,4 +29,4 @@ def return_string_array(array)
   end
   array
 end
-return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
+# return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
