@@ -18,7 +18,9 @@ def output_array(array)
 end
 output_array(['orange', 'red', 'yellow'])
 
-# def return_string_array(array)
-#   p array
-# end
-# return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
+def return_string_array(array)
+  count = 0
+  while count < array.length do
+    array
+end
+return_string_array(['Chris', 'Meredith', 'Frank', 'Phyllis'])
