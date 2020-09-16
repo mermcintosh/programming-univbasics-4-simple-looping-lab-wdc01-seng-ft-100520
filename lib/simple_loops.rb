@@ -1,3 +1,5 @@
+require "pry"
+
 def loop_message_five_times(a_message_string)
   5.times{puts a_message_string}
 end
@@ -5,6 +7,7 @@ end
 
 def loop_message_n_times(a_message_string, integar)
   count = 0
+  binding.pry
   while count < integar do
     puts a_message_string
     count += 1
