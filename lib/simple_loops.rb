@@ -8,3 +8,7 @@
 #   n = integar
 # end
 # loop_messsage_n_times{"Hello kiddos",4}
+
+def output_array(array)
+end
+output_array(['orange', 'red', 'yellow'])
